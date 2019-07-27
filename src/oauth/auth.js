@@ -1,6 +1,6 @@
 import {Linking} from 'react-native';
 
-import URLSearchParams from 'url-search-params';
+const URLSearchParams = require('whatwg-url').URLSearchParams;
 
 import request from './request';
 import {query} from '../util';
